@@ -1,0 +1,23 @@
+.list_card {
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.03);
+  width: 100%;
+  padding: 10px;
+  background: #fff;
+  border-radius: 10px;
+}
+
+.listBox_heading {
+  margin-bottom: 10px;
+}
+
+.links_wraper {
+  display: flex;
+  flex-direction: column;
+}
+
+.feature_linkStyle {
+  color: black !important;
+  border-bottom: 1px solid rgba(100, 94, 94, 0.292);
+  padding: 5px 0px;
+  font-size: 14px;
+}

@@ -1,0 +1,70 @@
+.Navmain_wrapper {
+  width: 100%;
+  height: 50px;
+  background-color: #191919;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0px 50px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1000;
+  color: #ffff;
+  font-family: sans-serif;
+}
+.left_side {
+  display: flex;
+  column-gap: 10px;
+  align-items: center;
+}
+
+.hangbug_wrapper {
+  display: none;
+}
+
+.logo_style {
+  width: 100px;
+  height: 60px;
+  cursor: pointer;
+}
+
+.right_side {
+  display: flex;
+  align-items: center;
+  column-gap: 20px;
+}
+
+.nav_linksBox {
+  display: flex;
+  column-gap: 10px;
+}
+
+.link_wrapper {
+  text-transform: capitalize;
+  font-size: 14px;
+}
+
+.authBtn {
+  border: 1px solid #ffff;
+  font-size: 12px;
+  padding: 7px 20px;
+  border-radius: 15px;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 600px) {
+  .Navmain_wrapper {
+    padding: 0px 10px;
+  }
+  .right_side {
+    display: none;
+  }
+
+  .hangbug_wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}

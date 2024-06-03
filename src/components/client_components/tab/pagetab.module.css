@@ -1,0 +1,57 @@
+.tab_container {
+  width: 100%;
+  border-bottom: 1px solid transparent;
+  display: flex;
+  align-items: center;
+  font-family: sans-serif;
+}
+
+.arrow_Box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 50px;
+  border-bottom: 1px solid #757575;
+  height: 100%;
+  padding: 6.5px 7px;
+  cursor: pointer;
+}
+
+.tabs_wrapper {
+  flex-grow: 1;
+  overflow-x: scroll;
+  border-bottom: 1px solid #757575;
+  display: flex;
+  column-gap: 10px;
+  flex-wrap: nowrap;
+}
+
+.tabs_wrapper::-webkit-scrollbar {
+  width: 2px; /* Set the width of the scrollbar */
+  height: 1px; /* Set the height of the scrollbar */
+}
+
+.tabs_wrapper::-webkit-scrollbar-thumb {
+  background-color: rgba(0, 0, 0, 0);
+}
+
+.tabs_wrapper::-webkit-scrollbar-track {
+  background-color: transparent;
+}
+
+.tab_link {
+  color: black;
+  padding: 5px 7px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: nowrap;
+  text-transform: capitalize;
+  white-space: nowrap;
+}
+
+@media screen and (max-width: 600px) {
+  .arrow_Box {
+    display: none;
+  }
+}
