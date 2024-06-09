@@ -4,6 +4,8 @@ import { MdArrowForwardIos } from "react-icons/md";
 import { CiHeart } from "react-icons/ci";
 import { IoShareOutline } from "react-icons/io5";
 import { HiOutlineDotsVertical } from "react-icons/hi";
+import { SlMagnifier } from "react-icons/sl";
+import { FaPlus } from "react-icons/fa6";
 export {
   FaBars,
   MdArrowBackIos,
@@ -11,4 +13,6 @@ export {
   CiHeart,
   IoShareOutline,
   HiOutlineDotsVertical,
+  SlMagnifier,
+  FaPlus,
 };

@@ -26,7 +26,7 @@ export default function HeroSetion() {
           <h3 className="section_hedaing">Recommended topics</h3>
         </div>
         <div className={styles.tags_wrapperBox}>
-          {tags.map((el, i) => {
+          {tags.slice(0, 10).map((el, i) => {
             return (
               <Link href={`${el.hrfLinks}`} className={styles.tag_box}>
                 {el.name}
