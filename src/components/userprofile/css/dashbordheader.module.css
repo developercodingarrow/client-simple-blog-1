@@ -1,0 +1,36 @@
+.profile_header {
+  width: 100%;
+  display: flex;
+  padding: 50px;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid gray;
+}
+
+.user_profileWrapper {
+  display: flex;
+  column-gap: 20px;
+  align-items: center;
+}
+
+.profile_imageBox {
+  width: 70px;
+  height: 70px;
+  border: 1px solid gray;
+  border-radius: 50%;
+}
+
+.profile_imgStyle {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+}
+
+.user_name {
+  margin-bottom: 5px;
+}
+
+.profile_shareIconBox {
+  font-size: 20px;
+  cursor: pointer;
+}

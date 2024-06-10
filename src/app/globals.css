@@ -52,6 +52,14 @@ h2 {
   margin-bottom: 20px;
 }
 
+.single_blog_layout {
+  margin: 50px 50px;
+}
+
+.user_profileLayout {
+  margin: 50px 50px;
+}
+
 @media screen and (max-width: 600px) {
   .children_wrapper {
     padding: 0px 5px;
@@ -66,5 +74,13 @@ h2 {
     font-size: 14px;
     font-family: sans-serif;
     text-transform: capitalize;
+  }
+
+  h1 {
+    font-size: 14px;
+  }
+
+  .single_blog_layout {
+    margin: 5px 0px;
   }
 }

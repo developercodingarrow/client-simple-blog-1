@@ -9,6 +9,11 @@ export const navLinks = [
     name: "Grow",
     hrfLinks: "/grow",
   },
+  {
+    id: 3,
+    name: "Tags",
+    hrfLinks: "/tags",
+  },
 ];
 
 export const tags = [
@@ -91,5 +96,18 @@ export const tags = [
     id: 16,
     name: "online Money",
     hrfLinks: "/online-money",
+  },
+];
+
+export const profileTab = [
+  {
+    id: 1,
+    name: "Blogs",
+    hrfLinks: "/profile/xyz",
+  },
+  {
+    id: 2,
+    name: "About us",
+    hrfLinks: "/profile/xyz",
   },
 ];

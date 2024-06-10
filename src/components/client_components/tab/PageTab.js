@@ -4,9 +4,11 @@ import {
   MdArrowBackIos,
   MdArrowForwardIos,
 } from "../../../staticutils/ApplicationIcon";
-import { tags } from "../../../jsonData/pagelinks";
+
 import Link from "next/link";
-export default function PageTab() {
+
+export default function PageTab(props) {
+  const { tabLinks } = props;
   return (
     <div className={styles.tab_container}>
       <div className={styles.arrow_Box}>
@@ -14,7 +16,7 @@ export default function PageTab() {
         <MdArrowBackIos />
       </div>
       <div className={styles.tabs_wrapper}>
-        {tags.map((el, i) => {
+        {tabLinks.map((el, i) => {
           return (
             <Link href={`${el.hrfLinks}`} className={styles.tab_link}>
               {el.name}

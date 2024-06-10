@@ -7,6 +7,7 @@ import Link from "next/link";
 import { usePathname, useSearchParams } from "next/navigation";
 import BlogCard from "./BlogCard";
 import SideBar from "../sidebar/SideBar";
+import { tags } from "../../jsonData/pagelinks";
 
 export default function BlogListSection() {
   const [isSticky, setIsSticky] = useState(false);
@@ -29,7 +30,7 @@ export default function BlogListSection() {
     <div className={styles.section_container}>
       <div className={styles.contnet_container}>
         <div className={`${styles.tab_bar} ${isSticky ? styles.sticky : ""}`}>
-          <PageTab />
+          <PageTab tabLinks={tags} />
         </div>
         <div className={styles.cards_wrapper}>
           {[1, 2, 3, 4, 5, 6, 7, 8, 9, 10].map((el, i) => {
