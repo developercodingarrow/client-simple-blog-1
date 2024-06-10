@@ -111,3 +111,21 @@ export const profileTab = [
     hrfLinks: "/profile/xyz",
   },
 ];
+
+export const userNavigationLink = [
+  {
+    id: 1,
+    name: "Published",
+    hrfLinks: "/published",
+  },
+  {
+    id: 2,
+    name: "Deaft",
+    hrfLinks: "/draft",
+  },
+  {
+    id: 3,
+    name: "setting",
+    hrfLinks: "/profile/xyz",
+  },
+];

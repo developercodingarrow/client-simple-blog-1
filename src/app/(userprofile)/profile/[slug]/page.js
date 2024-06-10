@@ -15,30 +15,6 @@ export default function UserProfilePage() {
   return (
     <div className={styles.main_container}>
       <div className={styles.container}>
-        {/* <div className={styles.profile_header}>
-          <div className={styles.user_profileWrapper}>
-            <div className={styles.profile_imageBox}>
-              <Image
-                src={userProfile}
-                width={100}
-                height={100}
-                className={styles.profile_imgStyle}
-              />
-            </div>
-
-            <div className={styles.user_bio_details}>
-              <div className={styles.user_name}>
-                <h2> Sanjay Chauhan</h2>
-              </div>
-              <div>
-                <ProfileMsgBtn />
-              </div>
-            </div>
-          </div>
-          <div className={styles.profile_shareIconBox}>
-            <PiShareFat />
-          </div>
-        </div> */}
         <DashboardHeader />
       </div>
       <div className={styles.tab_wrapper}>

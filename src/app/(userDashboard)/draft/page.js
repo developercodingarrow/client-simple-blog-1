@@ -1,12 +1,12 @@
 import React from "react";
-import styles from "./published.module.css";
+import styles from "./draft.module.css";
 import DashboardHeader from "../../../components/userprofile/DashboardHeader";
 import SideBar from "../../../components/sidebar/SideBar";
 import PageTab from "../../../components/client_components/tab/PageTab";
 import { userNavigationLink } from "../../../jsonData/pagelinks";
 import BlogCard from "../../../components/blogLists/BlogCard";
 
-export default function PublishedPage() {
+export default function DraftdPage() {
   return (
     <div className={styles.main_container}>
       <div className={styles.container}>
