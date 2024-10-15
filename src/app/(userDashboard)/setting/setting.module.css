@@ -1,0 +1,39 @@
+.main_container {
+  position: relative;
+}
+
+.container {
+  width: 70%;
+}
+
+.tab_wrapper {
+  width: 70%;
+}
+
+.tab_container {
+  padding: 20px;
+  width: 70%;
+}
+
+.sidebar_wrapper {
+  border: 1px solid gray;
+  position: fixed;
+  top: 50px;
+  right: 50px;
+  width: 25%;
+}
+
+.section_wrapper {
+  margin-bottom: 50px;
+  border-bottom: 1px solid gray;
+}
+
+.section_heading {
+  margin-bottom: 20px;
+}
+
+.component_wrapper {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}

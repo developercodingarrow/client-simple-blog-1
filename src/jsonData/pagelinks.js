@@ -1,3 +1,5 @@
+import { type } from "os";
+
 export const navLinks = [
   {
     id: 1,
@@ -13,6 +15,11 @@ export const navLinks = [
     id: 3,
     name: "Tags",
     hrfLinks: "/tags",
+  },
+  {
+    id: 3,
+    name: "Create Blog",
+    hrfLinks: "/create-blog",
   },
 ];
 
@@ -126,6 +133,44 @@ export const userNavigationLink = [
   {
     id: 3,
     name: "setting",
-    hrfLinks: "/profile/xyz",
+    hrfLinks: "/setting",
+  },
+];
+
+export const userProfile = [
+  {
+    id: 1,
+    lable: "name",
+    type: "text",
+  },
+
+  {
+    id: 1,
+    lable: "date of birth",
+    type: "text",
+  },
+];
+
+export const usersocialMedia = [
+  {
+    id: 1,
+    lable: "Facbook",
+    type: "text",
+  },
+
+  {
+    id: 2,
+    lable: "Twitter",
+    type: "text",
+  },
+  {
+    id: 3,
+    lable: "instgram",
+    type: "text",
+  },
+  {
+    id: 4,
+    lable: "linkedin",
+    type: "text",
   },
 ];
